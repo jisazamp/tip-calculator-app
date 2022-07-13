@@ -1,0 +1,68 @@
+input[type='radio'] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #00474b;
+  margin: 0;
+  color: currentColor;
+  width: 146.63px;
+  height: 48px;
+  border-radius: 5px;
+}
+
+input[type='radio']:checked {
+  background-color: #26c2ae;
+  transition: background-color 200ms ease;
+}
+
+.container {
+  background-color: white;
+  width: 100vw;
+  height: 80vh;
+  border-radius: 20px 20px 0 0;
+  padding: 32px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 6px;
+}
+
+.form-group img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 17.48px;
+}
+
+.form-label {
+  margin-bottom: 6px;
+}
+
+.form-input {
+  height: 48px;
+  border: none;
+  background-color: #f3f9fa;
+  text-align: end;
+  padding-right: 17.48px;
+  padding-left: 15%;
+}
+
+.tip-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.tip-radio {
+  position: relative;
+}
+
+.tip-radio span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 24px;
+}

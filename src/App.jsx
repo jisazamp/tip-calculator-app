@@ -1,5 +1,11 @@
+import BillPage from './components/bill/BillPage';
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <BillPage />
+    </div>
+  );
 };
 
 export default App;
